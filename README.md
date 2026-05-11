@@ -47,15 +47,15 @@ Output a comparison table sorted by Overall (highest first). For my_paper.pdf, a
 
 ## Reference papers
 
-| Paper | arXiv |
-|-------|-------|
-| ConvNeXt | https://arxiv.org/abs/2201.03545 |
-| DenseNet | https://arxiv.org/abs/1608.06993 |
-| Transformers without Normalization | https://arxiv.org/abs/2503.10622 |
-| Wanda (LLM pruning) | https://arxiv.org/abs/2306.11695 |
-| Deconstructing Denoising Diffusion | https://arxiv.org/abs/2401.14404 |
-| A Decade's Battle on Dataset Bias | https://arxiv.org/abs/2403.08632 |
-| Massive Activations in LLMs | https://arxiv.org/abs/2402.17762 |
-| Eyes Wide Shut | https://arxiv.org/abs/2401.06209 |
-| MAE (Kaiming He) | https://arxiv.org/abs/2111.06377 |
-| Thinking in Space (Saining Xie) | https://arxiv.org/abs/2412.14171 |
+| Paper | Type | arXiv |
+|-------|------|-------|
+| ConvNeXt | Method | https://arxiv.org/abs/2201.03545 |
+| DenseNet | Method | https://arxiv.org/abs/1608.06993 |
+| Transformers without Normalization | Method | https://arxiv.org/abs/2503.10622 |
+| Wanda (LLM pruning) | Method | https://arxiv.org/abs/2306.11695 |
+| MAE (Kaiming He) | Method | https://arxiv.org/abs/2111.06377 |
+| Deconstructing Denoising Diffusion | Empirical study | https://arxiv.org/abs/2401.14404 |
+| A Decade's Battle on Dataset Bias | Empirical study | https://arxiv.org/abs/2403.08632 |
+| Massive Activations in LLMs | Empirical study | https://arxiv.org/abs/2402.17762 |
+| Eyes Wide Shut | Benchmark | https://arxiv.org/abs/2401.06209 |
+| Thinking in Space (Saining Xie) | Benchmark | https://arxiv.org/abs/2412.14171 |
