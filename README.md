@@ -23,7 +23,9 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
    curl -fsSL https://arxiv.org/pdf/2412.14171 -o Thinking_in_Space.pdf
    ```
 
-2. Start Claude Code from this folder (`claude`) and paste the prompt below.
+2. Start Claude Code from this folder (`claude`) and paste the prompt below. **Use the highest-effort / reasoning mode available** (Claude Opus with extended thinking, GPT-5 / Codex with high reasoning, etc.).
+
+   Alternative: ChatGPT in **Thinking or Pro mode** — upload all the PDFs directly to the chat instead of using a local folder.
 
 ## The prompt
 
