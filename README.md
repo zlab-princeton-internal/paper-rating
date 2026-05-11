@@ -1,6 +1,6 @@
 # Paper Writing Self-Review
 
-AI-based writing quality check for your draft, comparing against a curated set of high-quality reference papers from our group and others.
+AI-based writing quality check for your draft, comparing against a set of reference papers.
 
 This evaluates **writing and presentation only** — not impact, novelty, or technical contribution. Run it when your draft is mostly complete, before submission.
 
