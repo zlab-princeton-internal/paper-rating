@@ -1,5 +1,11 @@
 # Paper Writing Self-Review
 
+*By [Zhuang Liu](https://liuzhuang13.github.io/)*
+
+**Related**: [Writing Guide](https://github.com/zlab-princeton-internal/writing-guide) · [Figure Guide](https://github.com/zlab-princeton-internal/figure-guide) · [AI Paper Checking](https://github.com/zlab-princeton-internal/ai-paper-checking) · [Peer Review System](https://github.com/zlab-princeton-internal/peer-review)
+
+> This guide is intended for [Zhuang Liu](https://liuzhuang13.github.io/)'s group members. Others are welcome to adopt or adapt it for their own use.
+
 AI-based writing quality check for your draft, comparing against a set of reference papers.
 
 This evaluates **writing and presentation only** — not impact, novelty, or technical contribution. Run it when your draft is mostly complete, before submission.
@@ -32,7 +38,7 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
 ```
 Score the writing quality of every PDF in this folder. Writing and presentation only, not impact.
 
-Read pages 1-15 of each. Rate 0-100 on:
+Read each paper in full and score each one independently. Rate 0-100 on:
 - Overall
 - Title
 - Abstract
