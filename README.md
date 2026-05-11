@@ -6,19 +6,26 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
 
 ## How to use
 
-1. Make a folder, copy your draft PDF in as `my_paper.pdf`, and download a few reference papers (links below). Pick papers of **similar type** to your draft — method, empirical study, or benchmark. Cross-type comparison (e.g. a method paper vs a benchmark paper) is not meaningful.
+1. Make a folder, copy your draft PDF in as `my_paper.pdf`, and download **all** reference papers below into the same folder.
 
    ```bash
    mkdir review && cd review
    cp /path/to/your/draft.pdf my_paper.pdf
    curl -fsSL https://arxiv.org/pdf/2201.03545 -o ConvNeXt.pdf
+   curl -fsSL https://arxiv.org/pdf/1608.06993 -o DenseNet.pdf
+   curl -fsSL https://arxiv.org/pdf/2503.10622 -o Transformers_without_Normalization.pdf
+   curl -fsSL https://arxiv.org/pdf/2306.11695 -o Wanda.pdf
+   curl -fsSL https://arxiv.org/pdf/2401.14404 -o Deconstructing_Diffusion.pdf
+   curl -fsSL https://arxiv.org/pdf/2403.08632 -o Decades_Battle_Dataset_Bias.pdf
+   curl -fsSL https://arxiv.org/pdf/2402.17762 -o Massive_Activations.pdf
+   curl -fsSL https://arxiv.org/pdf/2401.06209 -o Eyes_Wide_Shut.pdf
    curl -fsSL https://arxiv.org/pdf/2111.06377 -o MAE.pdf
-   # add more from the list below
+   curl -fsSL https://arxiv.org/pdf/2412.14171 -o Thinking_in_Space.pdf
    ```
 
-2. Start Claude Code from this folder (`claude`), then paste the prompt below.
+2. Start Claude Code from this folder (`claude`), then paste the prompt below. The AI will score all papers (your draft + the references) together in one comparison table.
 
-3. Compare your draft's scores against the same-type reference papers. If you are 5+ points below same-type peers, plan a writing revision before submission.
+3. In the output table, find where your draft lands. Pay attention to **same-type** reference papers — your draft is most directly comparable to method papers if it's a method paper, empirical studies if it's empirical, benchmarks if it's a benchmark. If you are 5+ points below same-type peers, plan a writing revision before submission.
 
 4. AI scoring has variance. Run the prompt 2–3 times and look at the spread, not a single number.
 
