@@ -58,6 +58,7 @@ Output a comparison table sorted by Overall (highest first).
 
 ## After scoring
 
-- Find your draft in the output table. Pay attention to **same-type** reference papers (method vs method, empirical vs empirical, benchmark vs benchmark).
-- You can keep chatting with Claude afterward — discuss the table, ask about specific dimensions. How to improve your paper is up to you.
-- If you revise your draft and want to re-score, **start a fresh Claude Code session.** Prior scores in history will bias the new run.
+- Find your draft in the output table. Pay attention to **same-type** reference papers (method vs method, empirical vs empirical, benchmark vs benchmark). **Aim to bring your draft at least up to the average score of the same-type reference papers.**
+- You can keep chatting with the AI to dig into the justifications, ask why a certain dimension scored where it did, or get advice on what to look at first. How to actually improve the paper is up to you.
+- **Do not let the AI directly edit your paper and re-score in the same session.** The AI will optimize against its own biases and the score becomes meaningless (overfitting).
+- **Every re-scoring must be in a brand-new session** with no access to prior history or previous scores. Fully exit the AI tool and start over from scratch each time.
