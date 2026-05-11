@@ -29,6 +29,10 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
 
 4. AI scoring has variance. Run the prompt 2–3 times and look at the spread.
 
+5. You can keep chatting with Claude afterward — discuss the table, ask about specific dimensions, etc. How to improve your paper is up to you.
+
+6. **If you revise your draft and want to re-score, start a fresh Claude Code session.** Don't continue the same conversation — prior scores in history will bias the new run. Exit Claude and re-run from scratch.
+
 ## The prompt
 
 ```
