@@ -6,7 +6,7 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
 
 ## How to use
 
-1. Make a folder, copy your draft PDF into it, and download **all** reference papers below into the same folder.
+1. Make a folder, copy your draft PDF into it, and download all reference papers below into the same folder.
 
    ```bash
    mkdir review && cd review
@@ -15,23 +15,15 @@ This evaluates **writing and presentation only** — not impact, novelty, or tec
    curl -fsSL https://arxiv.org/pdf/1608.06993 -o DenseNet.pdf
    curl -fsSL https://arxiv.org/pdf/2503.10622 -o Transformers_without_Normalization.pdf
    curl -fsSL https://arxiv.org/pdf/2306.11695 -o Wanda.pdf
+   curl -fsSL https://arxiv.org/pdf/2111.06377 -o MAE.pdf
    curl -fsSL https://arxiv.org/pdf/2401.14404 -o Deconstructing_Diffusion.pdf
    curl -fsSL https://arxiv.org/pdf/2403.08632 -o Decades_Battle_Dataset_Bias.pdf
    curl -fsSL https://arxiv.org/pdf/2402.17762 -o Massive_Activations.pdf
    curl -fsSL https://arxiv.org/pdf/2401.06209 -o Eyes_Wide_Shut.pdf
-   curl -fsSL https://arxiv.org/pdf/2111.06377 -o MAE.pdf
    curl -fsSL https://arxiv.org/pdf/2412.14171 -o Thinking_in_Space.pdf
    ```
 
-2. Start Claude Code from this folder (`claude`), then paste the prompt below. The AI scores all PDFs (your draft + references) together in one comparison table.
-
-3. Find your draft in the table. Pay attention to **same-type** reference papers — method papers compare to method papers, empirical to empirical, benchmark to benchmark.
-
-4. AI scoring has variance. Run the prompt 2–3 times and look at the spread.
-
-5. You can keep chatting with Claude afterward — discuss the table, ask about specific dimensions, etc. How to improve your paper is up to you.
-
-6. **If you revise your draft and want to re-score, start a fresh Claude Code session.** Don't continue the same conversation — prior scores in history will bias the new run. Exit Claude and re-run from scratch.
+2. Start Claude Code from this folder (`claude`) and paste the prompt below.
 
 ## The prompt
 
@@ -54,10 +46,16 @@ Output a comparison table sorted by Overall (highest first).
 | ConvNeXt | Method | https://arxiv.org/abs/2201.03545 |
 | DenseNet | Method | https://arxiv.org/abs/1608.06993 |
 | Transformers without Normalization | Method | https://arxiv.org/abs/2503.10622 |
-| Wanda (LLM pruning) | Method | https://arxiv.org/abs/2306.11695 |
+| Wanda | Method | https://arxiv.org/abs/2306.11695 |
 | MAE | Method | https://arxiv.org/abs/2111.06377 |
 | Deconstructing Denoising Diffusion | Empirical study | https://arxiv.org/abs/2401.14404 |
 | A Decade's Battle on Dataset Bias | Empirical study | https://arxiv.org/abs/2403.08632 |
 | Massive Activations in LLMs | Empirical study | https://arxiv.org/abs/2402.17762 |
 | Eyes Wide Shut | Benchmark | https://arxiv.org/abs/2401.06209 |
 | Thinking in Space | Benchmark | https://arxiv.org/abs/2412.14171 |
+
+## After scoring
+
+- Find your draft in the output table. Pay attention to **same-type** reference papers (method vs method, empirical vs empirical, benchmark vs benchmark).
+- You can keep chatting with Claude afterward — discuss the table, ask about specific dimensions. How to improve your paper is up to you.
+- If you revise your draft and want to re-score, **start a fresh Claude Code session.** Prior scores in history will bias the new run.
