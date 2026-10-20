@@ -42,6 +42,7 @@ Read each paper in full and score each one independently. Rate 0-100 on:
 - Overall
 - Title
 - Abstract
+- Figure 1
 - Figures and tables
 - Introduction
 - Method description
