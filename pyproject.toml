@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paper-rating"
+version = "0.1.0"
+description = "Compare PDF writing quality with reference papers using Codex or Claude Code."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pymupdf>=1.24,<2"]
+
+[project.scripts]
+paper_rating = "paper_rating.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paper_rating"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"no_app_pdfs" = "paper_rating/no_app_pdfs"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "no_app_pdfs", "README.md", "pyproject.toml", "uv.lock"]

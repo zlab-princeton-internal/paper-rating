@@ -1,0 +1,15 @@
+Score the writing quality of every PDF in this folder. Writing and presentation only, not impact.
+
+Read each paper in full and score each one independently. Rate 0-100 on:
+- Overall
+- Title
+- Abstract
+- Figure 1
+- Figures and tables
+- Introduction
+- Method description
+- Experiment design
+
+Output a comparison table sorted by Overall (highest first).
+
+Do not penalize needed complexity, newer papers are more complex by nature.

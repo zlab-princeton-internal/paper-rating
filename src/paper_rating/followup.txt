@@ -1,0 +1,6 @@
+Now focus on {draft}, the draft paper in your table.
+
+1. Why is it ranked where it is? For each category, explain the specific reasons for its score relative to the other papers. Cite concrete evidence: page numbers, sections, figure and table numbers, and short quotes.
+2. What can it do to score higher? Give a prioritized list of concrete writing and presentation changes, ordered by expected impact on Overall. For each, name the category it improves and, where useful, a reference paper that does it well.
+
+Writing and presentation only, not impact. Do not re-score the papers.

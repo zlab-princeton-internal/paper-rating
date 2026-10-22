@@ -1,0 +1,79 @@
+[
+  {
+    "file": "ConvNeXt.pdf",
+    "source_pages": 15,
+    "pages": 13,
+    "sha256": "e0e8f8b9d0d9d075966e23bd5ed68c13942cb1baaeffbb28726e2dbe1b3ff3ae",
+    "preparation": "Removed appendix starting on source page 9 and ending on source page 12; retained conclusion, acknowledgments, and bibliography."
+  },
+  {
+    "file": "Decades_Battle_Dataset_Bias.pdf",
+    "source_pages": 15,
+    "pages": 15,
+    "sha256": "f60c05a9c14d6d508916fd4baad570c0ef02754e6edc7cf186c981fbd84960b5",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Deconstructing_Diffusion.pdf",
+    "source_pages": 10,
+    "pages": 10,
+    "sha256": "a37c97950aba745aac0fdb8f8407ff083b1dfb65a5c9467b17ec0e559460d3a1",
+    "preparation": "Removed appendix sections A and B on source page 9; retained acknowledgments and bibliography."
+  },
+  {
+    "file": "DenseNet.pdf",
+    "source_pages": 9,
+    "pages": 9,
+    "sha256": "b55aa1adbdf07f731daa84b94d23103d1eb22d1821a556b80212debee69b096d",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Eyes_Wide_Shut.pdf",
+    "source_pages": 11,
+    "pages": 11,
+    "sha256": "443e512354f0adc96db4c0fd0590d4f9a6185f3a0c6db5536c0c9cff427427a3",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "MAE.pdf",
+    "source_pages": 10,
+    "pages": 10,
+    "sha256": "055263e6a844687598f9b50db7b28adffed1d0f82fe29775dfe86949c22fe6c4",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Massive_Activations.pdf",
+    "source_pages": 16,
+    "pages": 16,
+    "sha256": "e805049739a6b960859b4894f85a66c6a6f5e3db4e4c6ce4d55a44fc148c9609",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Thinking_in_Space.pdf",
+    "source_pages": 12,
+    "pages": 12,
+    "sha256": "6118fb251d5d020a8ea41a1894e3f5f372678488f72c2f809e7dd7cbcc7ee654",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Transformers_without_Normalization.pdf",
+    "source_pages": 16,
+    "pages": 16,
+    "sha256": "73862c46f04f0829ed355c18f450f87722ea9ebb0fc0de84d2cae4c532cf97d5",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Vero.pdf",
+    "source_pages": 25,
+    "pages": 25,
+    "sha256": "41ffea4c33a338cefc42e265a5863dceefc3f0a93352c89b09d091f78e7a8f64",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  },
+  {
+    "file": "Wanda.pdf",
+    "source_pages": 14,
+    "pages": 14,
+    "sha256": "a1bef60cc5d27063619b9a4857369ddcac1f7e69b61ebb3edc23906cbab8d9fa",
+    "preparation": "Copied existing reference without appendices; bibliography retained."
+  }
+]
